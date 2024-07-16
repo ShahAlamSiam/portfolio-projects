@@ -9,11 +9,19 @@
 
 }
 /* shared style */
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
 
 .header{
     background-image: url(/images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
 }
 /*nav styles */
 .text-primary{
@@ -33,6 +41,10 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
 }
  nav{
     display: flex;
@@ -84,4 +96,22 @@
 }
 .banner-profile-img{
     width: 584px;
+}
+/* Section styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+    color: rgb(117, 117, 117);
+}
+.item-description{
+    font-weight: 700;
+    color: rgb(71, 71, 71);
 }
